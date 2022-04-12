@@ -50,12 +50,10 @@ class _MyHomePageState extends State<MyHomePage> {
               Wrap(
                 children: [
                   const SizedBox(width: 15,),
-                  Text(harf[i],style: const TextStyle(fontSize: 20),textAlign: TextAlign.center,),
+                  Text(harf[i],style: const TextStyle(fontSize: 20)),
                   const SizedBox(width: 5,),
                 ],
               ),
-
-
             for (int yatayKareler = 1; yatayKareler <= 8; yatayKareler++)
               yatayKareler % 2 != 0
                   ? Wrap(
@@ -106,9 +104,6 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                       ],
                     ),
-            //
-
-
           ],
         ),
       ),
